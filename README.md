@@ -1,43 +1,53 @@
 # Quote_Generator
 ## Date:
 ## Objective:
-To create a simple quote generator using HTML, CSS, and JavaScript that displays a new random motivational quote each time a button is clicked — similar to daily quote sections on blogs or productivity apps.
+To create a simple thirukkural generator using HTML, CSS, and JavaScript that displays a new random thirukkural each time a button is clicked — similar to daily quote sections on blogs or productivity apps.
 
 ## Tasks:
 
 #### 1. Create the HTML Structure:
-Add a heading like ```<h1>InspireMe</h1>```
-
-Use a ```<div> or <p>``` to display the quote text.
-
-Use another ```<p> or <span>``` to display the author’s name.
-
-Add a button labeled “Get Quote”.
+<ul>
+  <li>Add a heading Thirukkural Generator</li>
+  <li>Use a ```<div>``` or ```<p>```to display the Thirukkural (Tamil couplet).</li>
+  <li>Use another ```<p>``` or ```<span>``` to display the meaning or explanation.</li>
+  <li>Add a button labeled “Get Thirukkural”.</li>
+  <li>Add a label showing the Kural number.</li>
+</ul>
 
 #### 2. Style the Layout Using CSS:
-Center everything on the page using flexbox.
 
-Style the quote box with padding, background color, and rounded borders.
-
-Use a clean font (like Roboto or Open Sans).
-
-Add hover effects for the button.
+<ul>
+  <li>Center everything on the page using Flexbox.</li>
+  <li>Style the quote box with:
+  <ul type="square">
+    <li>Padding</li>
+    <li>Background color</li>
+    <li>Rounded borders</li>
+    <li>Soft shadow</li>
+    <li>Add hover effects for the button.</li>
+  </li>
+  </ul>
+  </ul
 
 #### 3. Add JavaScript Functionality:
-Store an array of quotes (objects with text and author).
+<ul>
+  <li>Store an array of Thirukkural objects containing:
+  <ul type="square">
+    <li>Kural number</li>
+    <li>Kural Meaning</li>
+  </ul>
+  </li>
+  <li>When the button is clicked:
+  <ul type="square">
+    <li>Generate a random index using Math.random().</li>
+    <li>Retrieve the corresponding Thirukkural object.</li>
+    <li>Display the Kural number and meaning in the HTML.</li>
+    <li>Update content dynamically using innerText.</li>
+  </ul>
+  </li>
+</ul>
+## Code:
 
-On button click, generate a random index using Math.random().
-
-Display the selected quote and author in the HTML.
-
-Ensure each click updates the quote dynamically using innerText.
-
-#### 4. Enhancements:
-Animate the quote change using fade effects.
-
-Add a “Tweet this” button with a share link.
-## HTML Code:
-## CSS Code:
 ## Output:
 
 ## Result:
